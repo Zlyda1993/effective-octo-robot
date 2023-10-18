@@ -41,9 +41,36 @@
         "genre": "Fiction",
         "year": "2007"
     },
-
-
-
+    {
+        "title": "Moneyball: The Art of Winning an Unfair Game",
+        "author": "Michael Lewis",
+        "genre": "Non-Fiction",
+        "year": "2003"
+    },
+    {
+        "title": "Friday Night Lights: A Town, a Team, and a Dream",
+        "author": "H. G. Bassinger",
+        "genre": "Non-Fiction",
+        "year":  "1990"
+    },
+    {
+        "title": "Into Thin Air",
+        "author": "Jon Krakauer",
+        "genre": "Non-Fiction",
+        "year": "1997"
+    },
+    {
+        "title": "The Blind Side: Evolution of a Game",
+        "author": "Michael Lewis",
+        "genre": "Non-Fiction",
+        "year": "2006"
+    },
+    {
+        "title": "Seabiscuit: An American Legend",
+        "author": "Laura Hillenbrand",
+        "genre": "Non-Fiction",
+        "year": "1999"
+    },
 
 ]
 
