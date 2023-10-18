@@ -15,23 +15,20 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    artist: {
+    author: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    exhibition_date: {
+    genre: {
       type: DataTypes.DATE,
       allowNull: false,
     },
-    filename: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+   
     description: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    gallery_id: {
+    book_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'book',
