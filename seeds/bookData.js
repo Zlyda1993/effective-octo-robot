@@ -101,7 +101,7 @@ const bookData = [
         title: "Wokini",
         author: "Nicholas Sparks",
         genre: "Fiction",
-        year: 1995,
+        year: 1995, 
     },
     {
         title: "The Notebook",
@@ -155,13 +155,13 @@ const bookData = [
         title: "Three Weeks With My Brother",
         author: "Nicholas Sparks",
         genre: "Fiction",
-        year: 2004,
+        year: 2004, 
     },
     {
         title: "True Believer",
         author: "Nicholas Sparks",
         genre: "Fiction",
-        year: 2005,
+        year: 2005, 
     },
     {
         title: "At First Sight",
@@ -246,6 +246,66 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2022,
+    },
+    {
+        title: "IT",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1986,
+    },
+    {
+        title: "The Shining",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1977,
+    },
+    {
+        title: "Misery",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1987,
+    },
+    {
+        title: "The Dead Zone",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1979,
+    },
+    {
+        title: "The Stand (1990)",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1990,
+    },
+    {
+        title: "The Stand",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1978,
+    },
+    {
+        title: "Carrie",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1974,
+    },
+    {
+        title: "11/22/63",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 2011,
+    },
+    {
+        title: "Pet Sematary",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1983,
+    },
+    {
+        title: "'Salem's Lot",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1975,
     },
 ];
 
