@@ -20,14 +20,14 @@ Book.init(
       allowNull: false,
     },
     genre: {
-      type: DataTypes.DATE,
-      allowNull: false,
-    },
-   
-    description: {
       type: DataTypes.STRING,
       allowNull: false,
     },
+   
+    // description: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
     book_id: {
       type: DataTypes.INTEGER,
       references: {
