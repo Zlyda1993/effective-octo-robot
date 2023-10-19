@@ -1,19 +1,19 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Shelf extends Model {}
+class Comment extends Model {}
 
-Shelf.init(
+Comment.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
       primaryKey: true,
       autoIncrement: true,
     },
-    genre: {
+    comment: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
   
   },
@@ -25,4 +25,4 @@ Shelf.init(
   }
 );
 
-module.exports = Shelf;
+module.exports = Comment;
