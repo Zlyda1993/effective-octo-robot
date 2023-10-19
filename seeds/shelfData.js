@@ -9,6 +9,6 @@ const shelfData = [
     },
 ];
 
-const seedShelf = () => Shelf.bulkCreate(shelfData)
+const seedShelf = () => Shelf.bulkCreate(shelfData);
 
 module.exports = seedShelf;
