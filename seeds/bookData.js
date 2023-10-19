@@ -97,7 +97,156 @@ const bookData = [
         img: "seab.jpg"
         // description:
     },
-
+    {
+        title: "Wokini",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 1995,
+    },
+    {
+        title: "The Notebook",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 1996,
+    },
+    {
+        title: "Message in a Bottle",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 1998,
+    },
+    {
+        title: "A Walk to Remember",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 1999,
+    },
+    {
+        title: "The Rescue",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2000,
+    },
+    {
+        title: "A Bend in the Road",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2001,
+    },
+    {
+        title: "Nights in Rodanthe",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2002,
+    },
+    {
+        title: "The Guardian",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2003,
+    },
+    {
+        title: "The Wedding",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2003,
+    },
+    {
+        title: "Three Weeks With My Brother",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2004,
+    },
+    {
+        title: "True Believer",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2005,
+    },
+    {
+        title: "At First Sight",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2005,
+    },
+    {
+        title: "Dear John",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2006,
+    },
+    {
+        title: "The Choice",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2007,
+    },
+    {
+        title: "The Lucky One",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2008,
+    },
+    {
+        title: "The Last Song",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2009,
+    },
+    {
+        title: "Safe Haven",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2010,
+    },
+    {
+        title: "The Best of Me",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2011,
+    },
+    {
+        title: "The Longest Ride",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2013,
+    },
+    {
+        title: "See Me",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2015,
+    },
+    {
+        title: "Two by Two",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2016,
+    },
+    {
+        title: "Every Breath",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2018,
+    },
+    {
+        title: "The Return",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2020,
+    },
+    {
+        title: "The Wish",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2021,
+    },
+    {
+        title: "Dreamland",
+        author: "Nicholas Sparks",
+        genre: "Fiction",
+        year: 2022,
+    },
 ];
 
 const seedBook = () => Book.bulkCreate(bookData)
