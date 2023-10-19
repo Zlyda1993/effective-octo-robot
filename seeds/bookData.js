@@ -171,7 +171,7 @@ const bookData = [
         title: "True Believer",
         author: "Nicholas Sparks",
         genre: "Fiction",
-        year: 2005,
+        year: 2005, 
     },
     {
         title: "At First Sight",
@@ -261,16 +261,68 @@ const bookData = [
         genre: "Fiction",
         year: 2022,
     },
+    {
+        title: "IT",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1986,
+    },
+    {
+        title: "The Shining",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1977,
+    },
+    {
+        title: "Misery",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1987,
+    },
+    {
+        title: "The Dead Zone",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1979,
+    },
+    {
+        title: "The Stand (1990)",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1990,
+    },
+    {
+        title: "The Stand",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1978,
+    },
+    {
+        title: "Carrie",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1974,
+    },
+    {
+        title: "11/22/63",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 2011,
+    },
+    {
+        title: "Pet Sematary",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1983,
+    },
+    {
+        title: "'Salem's Lot",
+        author: "Stephen King",
+        genre: "Fiction",
+        year: 1975,
+    },
 ];
 
 const seedBook = () => Book.bulkCreate(bookData)
 
 module.exports = seedBook;
-
-
-// {
-//     "title": 
-//     "author":
-//     "genre":
-//     "year":
-// },

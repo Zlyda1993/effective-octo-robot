@@ -2,7 +2,7 @@
   <h3 class="shelf-name">{{shelf.name}}</h3>
   
   <section class="flex-row justify-center">
-    {{#each shelf.books as |book|}}
+    {{#each shelf.book as |book|}}
     {{> book-details}}
     {{/each}}
   </section>
