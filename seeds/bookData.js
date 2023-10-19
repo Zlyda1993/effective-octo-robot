@@ -102,60 +102,70 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1995,
+        img: "wok.jpg"
     },
     {
         title: "The Notebook",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1996,
+        img: "np.jpg"
     },
     {
         title: "Message in a Bottle",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1998,
+        img: "miab.jpg"
     },
     {
         title: "A Walk to Remember",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1999,
+        img: "awtr.jpg"
     },
     {
         title: "The Rescue",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2000,
+        img: "resc.jpg"
     },
     {
         title: "A Bend in the Road",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2001,
+        img: "abitr.jpg"
     },
     {
         title: "Nights in Rodanthe",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2002,
+        img: "nir.jpg"
     },
     {
         title: "The Guardian",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2003,
+        img: "guard.jpg"
     },
     {
         title: "The Wedding",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2003,
+        img: "wedd.jpg"
     },
     {
         title: "Three Weeks With My Brother",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2004,
+        img: "twwmb.jpg"
     },
     {
         title: "True Believer",
@@ -168,24 +178,28 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2005,
+        img: "afs.img"
     },
     {
         title: "Dear John",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2006,
+        img: "dearj.jpg"
     },
     {
         title: "The Choice",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2007,
+        img: "choice.jpg"
     },
     {
         title: "The Lucky One",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2008,
+        img: 
     },
     {
         title: "The Last Song",
