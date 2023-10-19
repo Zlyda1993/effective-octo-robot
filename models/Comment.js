@@ -21,7 +21,7 @@ Comment.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'shelf',
+    modelName: 'comment',
   }
 );
 
