@@ -1,10 +1,10 @@
-const sequelize = require('../models/index.js');
+const sequelize = require('../config/connection');
 const seedUser = require('./userData.js');
 const seedBook = require('./bookData.js');
 const seedComment = require('./commentData.js');
 
 const seedAll = async () => {
-    await sequelize.sync({ force: true});
+    await sequelize.sync ({ force: true});
 
     await seedUser();
     
