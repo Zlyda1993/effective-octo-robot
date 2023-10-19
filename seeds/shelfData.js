@@ -2,10 +2,12 @@ const { Shelf } = require('../models')
 
 const shelfData = [
     {
-        genre: "Fiction"
+        id: 1,
+        genre: "Fiction",
     },
     {
-        genre: "Non-Fiction"
+        id: 2,
+        genre: "Non-Fiction",
     },
 ];
 
