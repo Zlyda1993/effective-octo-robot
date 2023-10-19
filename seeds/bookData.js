@@ -6,6 +6,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "1997",
+        img: "hp1.jpg"
         // description: 
     },
     {
@@ -13,6 +14,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "1998",
+        img: "hp2.jpg"
         // description:
     },
     {
@@ -20,6 +22,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "1999",
+        img: "hp3.jpg"
         // description:
     },
     {
@@ -27,6 +30,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "2000",
+        img: "hp4.jpg"
         // description:
     },
     {
@@ -34,6 +38,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "2003",
+        img: "hp5.jpg"
         // description:
     },
     {
@@ -41,6 +46,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "2005",
+        img: "hp6.jpg"
         // description:
     },
     {
@@ -48,6 +54,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: "2007",
+        img: "hp7.jpg"
         // description:
     },
     {
@@ -55,6 +62,7 @@ const bookData = [
         author: "Michael Lewis",
         genre: "Non-Fiction",
         year: "2003",
+        img: "mb.jpg"
         // description:
     },
     {
@@ -62,6 +70,7 @@ const bookData = [
         author: "H. G. Bassinger",
         genre: "Non-Fiction",
         year:  "1990",
+        img: "fnl.jpg"
         // description:
     },
     {
@@ -69,6 +78,7 @@ const bookData = [
         author: "Jon Krakauer",
         genre: "Non-Fiction",
         year: "1997",
+        img: "ita.jpg"
         // description:
     },
     {
@@ -76,6 +86,7 @@ const bookData = [
         author: "Michael Lewis",
         genre: "Non-Fiction",
         year: "2006",
+        img: "bs.jpg"
         // description:
     },
     {
@@ -83,6 +94,7 @@ const bookData = [
         author: "Laura Hillenbrand",
         genre: "Non-Fiction",
         year: "1999",
+        img: "seab.jpg"
         // description:
     },
 
