@@ -199,7 +199,7 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2008,
-        img: 
+        img: "tlo.img"
     },
     {
         title: "The Last Song",
