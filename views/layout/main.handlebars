@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book-Shelf</title>
-  <link rel="stylesheet" type="text/css" href="/css/jass.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/jass.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/style.css">
 </head>
 
 <body>
@@ -15,11 +15,11 @@
     
   </header>
   <nav>
-    <a href="/">Home</a>
+    <a href="/controllers/index.js">Home</a>
     {{#if loggedIn}}
     <button id="logout" class="btn-no-style">Logout</button>
     {{else}}
-    <a href="/login">Login</a>
+    <a href="/public/javascript/login.js">Login</a>
     {{/if}}
   </nav>
   <main>
@@ -31,7 +31,7 @@
     </div>
   </main>
   {{#if loggedIn}}
-  <script src="/js/logout.js"></script>
+  <script src="/public/javascript/logout.js"></script>
   {{/if}}
 </body>
 
