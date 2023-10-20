@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="/public/css/style.css">
 </head>
 
+<div class="br-image">
 <body>
   <header>
     <h1>Welcome to your Virtual Book-Shelf</h1>
@@ -19,7 +20,7 @@
     {{#if loggedIn}}
     <button id="logout" class="btn-no-style">Logout</button>
     {{else}}
-    <a href="/login">Login</a>
+    <a href="../login.handlebars">Login</a>
     {{/if}}
   </nav>
   <main>
@@ -34,5 +35,6 @@
   <script src="../../public/javascript/logout.js"></script>
   {{/if}}
 </body>
+</div>
 
 </html>
