@@ -1,6 +1,6 @@
-body {
+/* body {
     background-image: url(../images/background/shelf1.webp);
-}
+} */
 
 header {
     display: block;
@@ -9,3 +9,7 @@ header {
     margin-right: auto;
 }
 
+.br-image {
+    background-image: url(../images/background/shelf1.webp);
+    opacity: 0.75;
+}
