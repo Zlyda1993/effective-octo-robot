@@ -3,6 +3,8 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+
+
 const User = require('../../models/User');
 const userData = require('../../seeds/userData');
 
@@ -62,3 +64,4 @@ app.post('/user', (req, res) => {
   
 //     res.status(204).send();
 // });
+
