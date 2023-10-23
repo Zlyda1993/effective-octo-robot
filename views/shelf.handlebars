@@ -1,9 +1,3 @@
-<section class="container">
-  <h3 class="shelf-name">{{shelf.name}}</h3>
-  
-  <section class="flex-row justify-center">
-    {{#each shelf.book as |book|}}
-    {{> book-details}}
-    {{/each}}
-  </section>
-</section>
+{{#each genres as |shelf|}}
+{{>shelf-details}}
+{{/each}}

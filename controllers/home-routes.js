@@ -14,12 +14,12 @@ router.get('/', async (req, res) => {
             ]
         });
 
-        const genre = dbShelfData.map((shelf) =>
+        const genres = dbShelfData.map((shelf) =>
             shelf.get({ plain: true })
         );
 
         res.render('shelf', {
-            genre,
+            genres,
             loggedIn: req.session.loggedIn,
         });
     } catch (err) {
@@ -30,7 +30,20 @@ router.get('/', async (req, res) => {
 
 router.get('/book/:id', withAuth, async (req, res) => {
     try {
-      const dbBookData = await Book.findByPk(req.params.id);
+      const dbBookData = await Book.findByPk(req.params.id, {
+        include: [
+          {
+            model: Book,
+            attributes: [
+              'title',
+              'author',
+              'genre',
+              'year',
+              'img',
+            ]
+          }
+        ]
+      });
   
       const book = dbBookData.get({ plain: true });
   
