@@ -10,8 +10,8 @@ router.get('/', async (req, res) => {
                 {
                     model: Book,
                     attributes: ['title', 'genre'],
-                }
-            ]
+                },
+            ],
         });
 
         const genres = dbShelfData.map((shelf) =>
@@ -40,9 +40,9 @@ router.get('/book/:id', withAuth, async (req, res) => {
               'genre',
               'year',
               'img',
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       });
   
       const book = dbBookData.get({ plain: true });

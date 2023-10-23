@@ -199,97 +199,113 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2008,
-        img: "tlo.img"
+        img: "tlo.jpg"
     },
     {
         title: "The Last Song",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2009,
+        img: "tls.jpg"
     },
     {
         title: "Safe Haven",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2010,
+        img: "safeh.jpg"
     },
     {
         title: "The Best of Me",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2011,
+        img: "tbom.jpg"
     },
     {
         title: "The Longest Ride",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2013,
+        img: "longestr.jpg"
+
     },
     {
         title: "See Me",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2015,
+        img: "seeme.jpg"
     },
     {
         title: "Two by Two",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2016,
+        img: "twobytwo.jpg"
     },
     {
         title: "Every Breath",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2018,
+        img: "everyb.jpg"
     },
     {
         title: "The Return",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2020,
+        img: "return.jpg"
     },
     {
         title: "The Wish",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2021,
+        img: "wish.jpg"
     },
     {
         title: "Dreamland",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2022,
+        img: "dreamland.jpg"
     },
     {
         title: "IT",
         author: "Stephen King",
         genre: "Fiction",
         year: 1986,
+        img: "it.jpg"
     },
     {
         title: "The Shining",
         author: "Stephen King",
         genre: "Fiction",
         year: 1977,
+        img: "shining.jpg"
     },
     {
         title: "Misery",
         author: "Stephen King",
         genre: "Fiction",
         year: 1987,
+        img: "misery.jpg"
     },
     {
         title: "The Dead Zone",
         author: "Stephen King",
         genre: "Fiction",
         year: 1979,
+        img: "deadzone.jpg"
     },
     {
         title: "The Stand (1990)",
         author: "Stephen King",
         genre: "Fiction",
         year: 1990,
+        img: "stand.jpg"
     },
     {
         title: "The Stand",
@@ -302,24 +318,28 @@ const bookData = [
         author: "Stephen King",
         genre: "Fiction",
         year: 1974,
+        img: "carrie.jpg"
     },
     {
         title: "11/22/63",
         author: "Stephen King",
         genre: "Fiction",
         year: 2011,
+        img: "112263.jpg"
     },
     {
         title: "Pet Sematary",
         author: "Stephen King",
         genre: "Fiction",
         year: 1983,
+        img: "petsem.jpg"
     },
     {
         title: "'Salem's Lot",
         author: "Stephen King",
         genre: "Fiction",
         year: 1975,
+        img: "salems.jpg"
     },
 ];
 
