@@ -68,7 +68,7 @@ router.post('/logout', (req, res) => {
   }
 });
 
-router.post('/:id', withAuth, async (req, res) => {
+router.post('/book/:id', withAuth, async (req, res) => {
   try {
     const newComment = await Comment.create({
       ...req.body,
@@ -81,7 +81,7 @@ router.post('/:id', withAuth, async (req, res) => {
   }
 });
 
-router.delete('/:id', withAuth, async (req, res) => {
+router.delete('/book/:id', withAuth, async (req, res) => {
   try {
     const commentData = await Comment.destroy({
       where: {
@@ -101,7 +101,7 @@ router.delete('/:id', withAuth, async (req, res) => {
   }
 });
 
-router.put('/:id', withAuth, async (req, res) => {
+router.put('/book/:id', withAuth, async (req, res) => {
   try {
     const commentData = await Comment.update({
       where: {

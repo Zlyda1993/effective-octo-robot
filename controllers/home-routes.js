@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
         const dbShelfData = await Shelf.findAll({
             include: [
                 {
-                    model: Book,
+                    model: Shelf,
                     attributes: ['title', 'genre'],
                 }
             ]
