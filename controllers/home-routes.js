@@ -40,7 +40,7 @@ router.get('/book/:id', withAuth, async (req, res) => {
   
       const book = dbBookData.get({ plain: true });
   
-      res.render('book', { book, loggedIn: req.session.loggedIn });
+      res.render('partials/book-details', { book, loggedIn: req.session.loggedIn });
     } catch (err) {
       console.log(err);
       res.status(500).json(err);
