@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
             ],
         });
 
-        const genres = dbShelfData.map((shelf) =>
+        const genre = dbShelfData.map((shelf) =>
             shelf.get({ plain: true })
         );
 
