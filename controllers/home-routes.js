@@ -29,11 +29,16 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/books/:genre', withAuth, async (req, res) => {
-  const books = await Book.findAll({
+  const bookData = await Book.findAll({
       where: { genre: req.params.genre },
   });
 
-  res.render('shelf', { books });
+  const books = bookData.map((book) => book.get({ plain: true }));
+
+  res.render('shelf', { 
+    books,
+    logged_in: req.session.logged_in
+  });
 });
 
   
