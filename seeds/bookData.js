@@ -6,7 +6,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 1997,
-        img: "hp1.jpg"
+        filename: "hp1.jpg"
         // description: 
     },
     {
@@ -14,7 +14,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 1998,
-        img: "hp2.jpg"
+        filename: "hp2.jpg"
         // description:
     },
     {
@@ -22,7 +22,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 1999,
-        img: "hp3.jpg"
+        filename: "hp3.jpg"
         // description:
     },
     {
@@ -30,7 +30,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 2000,
-        img: "hp4.jpg"
+        filename: "hp4.jpg"
         // description:
     },
     {
@@ -38,7 +38,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 2003,
-        img: "hp5.jpg"
+        filename: "hp5.jpg"
         // description:
     },
     {
@@ -46,7 +46,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 2005,
-        img: "hp6.jpg"
+        filename: "hp6.jpg"
         // description:
     },
     {
@@ -54,7 +54,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 2007,
-        img: "hp7.jpg"
+        filename: "hp7.jpg"
         // description:
     },
     {
@@ -62,7 +62,7 @@ const bookData = [
         author: "Michael Lewis",
         genre: "Non-Fiction",
         year: 2003,
-        img: "mb.jpg"
+        filename: "mb.jpg"
         // description:
     },
     {
@@ -70,7 +70,7 @@ const bookData = [
         author: "H. G. Bassinger",
         genre: "Non-Fiction",
         year:  1990,
-        img: "fnl.jpg"
+        filename: "fnl.jpg"
         // description:
     },
     {
@@ -78,7 +78,7 @@ const bookData = [
         author: "Jon Krakauer",
         genre: "Non-Fiction",
         year: 1997,
-        img: "ita.jpg"
+        filename: "ita.jpg"
         // description:
     },
     {
@@ -86,7 +86,7 @@ const bookData = [
         author: "Michael Lewis",
         genre: "Non-Fiction",
         year: 2006,
-        img: "bs.jpg"
+        filename: "bs.jpg"
         // description:
     },
     {
@@ -94,7 +94,7 @@ const bookData = [
         author: "Laura Hillenbrand",
         genre: "Non-Fiction",
         year: 1999,
-        img: "seab.jpg"
+        filename: "seab.jpg"
         // description:
     },
     {
@@ -102,70 +102,70 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1995,
-        img: "wok.jpg"
+        filename: "wok.jpg"
     },
     {
         title: "The Notebook",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1996,
-        img: "np.jpg"
+        filename: "np.jpg"
     },
     {
         title: "Message in a Bottle",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1998,
-        img: "miab.jpg"
+        filename: "miab.jpg"
     },
     {
         title: "A Walk to Remember",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 1999,
-        img: "awtr.jpg"
+        filename: "awtr.jpg"
     },
     {
         title: "The Rescue",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2000,
-        img: "resc.jpg"
+        filename: "resc.jpg"
     },
     {
         title: "A Bend in the Road",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2001,
-        img: "abitr.jpg"
+        filename: "abitr.jpg"
     },
     {
         title: "Nights in Rodanthe",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2002,
-        img: "nir.jpg"
+        filename: "nir.jpg"
     },
     {
         title: "The Guardian",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2003,
-        img: "guard.jpg"
+        filename: "guard.jpg"
     },
     {
         title: "The Wedding",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2003,
-        img: "wedd.jpg"
+        filename: "wedd.jpg"
     },
     {
         title: "Three Weeks With My Brother",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2004,
-        img: "twwmb.jpg"
+        filename: "twwmb.jpg"
     },
     {
         title: "True Believer",
@@ -178,56 +178,56 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2005,
-        img: "afs.img"
+        filename: "afs.filename"
     },
     {
         title: "Dear John",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2006,
-        img: "dearj.jpg"
+        filename: "dearj.jpg"
     },
     {
         title: "The Choice",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2007,
-        img: "choice.jpg"
+        filename: "choice.jpg"
     },
     {
         title: "The Lucky One",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2008,
-        img: "tlo.jpg"
+        filename: "tlo.jpg"
     },
     {
         title: "The Last Song",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2009,
-        img: "tls.jpg"
+        filename: "tls.jpg"
     },
     {
         title: "Safe Haven",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2010,
-        img: "safeh.jpg"
+        filename: "safeh.jpg"
     },
     {
         title: "The Best of Me",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2011,
-        img: "tbom.jpg"
+        filename: "tbom.jpg"
     },
     {
         title: "The Longest Ride",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2013,
-        img: "longestr.jpg"
+        filename: "longestr.jpg"
 
     },
     {
@@ -235,77 +235,77 @@ const bookData = [
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2015,
-        img: "seeme.jpg"
+        filename: "seeme.jpg"
     },
     {
         title: "Two by Two",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2016,
-        img: "twobytwo.jpg"
+        filename: "twobytwo.jpg"
     },
     {
         title: "Every Breath",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2018,
-        img: "everyb.jpg"
+        filename: "everyb.jpg"
     },
     {
         title: "The Return",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2020,
-        img: "return.jpg"
+        filename: "return.jpg"
     },
     {
         title: "The Wish",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2021,
-        img: "wish.jpg"
+        filename: "wish.jpg"
     },
     {
         title: "Dreamland",
         author: "Nicholas Sparks",
         genre: "Fiction",
         year: 2022,
-        img: "dreamland.jpg"
+        filename: "dreamland.jpg"
     },
     {
         title: "IT",
         author: "Stephen King",
         genre: "Fiction",
         year: 1986,
-        img: "it.jpg"
+        filename: "it.jpg"
     },
     {
         title: "The Shining",
         author: "Stephen King",
         genre: "Fiction",
         year: 1977,
-        img: "shining.jpg"
+        filename: "shining.jpg"
     },
     {
         title: "Misery",
         author: "Stephen King",
         genre: "Fiction",
         year: 1987,
-        img: "misery.jpg"
+        filename: "misery.jpg"
     },
     {
         title: "The Dead Zone",
         author: "Stephen King",
         genre: "Fiction",
         year: 1979,
-        img: "deadzone.jpg"
+        filename: "deadzone.jpg"
     },
     {
         title: "The Stand (1990)",
         author: "Stephen King",
         genre: "Fiction",
         year: 1990,
-        img: "stand.jpg"
+        filename: "stand.jpg"
     },
     {
         title: "The Stand",
@@ -318,28 +318,28 @@ const bookData = [
         author: "Stephen King",
         genre: "Fiction",
         year: 1974,
-        img: "carrie.jpg"
+        filename: "carrie.jpg"
     },
     {
         title: "11/22/63",
         author: "Stephen King",
         genre: "Fiction",
         year: 2011,
-        img: "112263.jpg"
+        filename: "112263.jpg"
     },
     {
         title: "Pet Sematary",
         author: "Stephen King",
         genre: "Fiction",
         year: 1983,
-        img: "petsem.jpg"
+        filename: "petsem.jpg"
     },
     {
         title: "'Salem's Lot",
         author: "Stephen King",
         genre: "Fiction",
         year: 1975,
-        img: "salems.jpg"
+        filename: "salems.jpg"
     },
 ];
 

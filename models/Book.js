@@ -27,18 +27,10 @@ Book.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-   
-    // description: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    // },
-    book_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'book',
-        key: 'id',
-      },
-    },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    }
   },
   {
     sequelize,

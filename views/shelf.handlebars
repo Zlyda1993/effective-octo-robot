@@ -1,7 +1,9 @@
-
-<section>
-  <h2>
-    <a href="/book/{{genre.fiction}}">Fiction</a>
-    <a href="/book/{{genre.nonfiction}}">Non-Fiction</a>
-  </h2>
+<section class="container">
+  <h3 class="shelf-name">{{genre}}</h3>
+  
+  <section class="flex-row justify-center">
+    {{#each books}}
+    {{> book-details}}
+    {{/each}}
+  </section>
 </section>

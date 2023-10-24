@@ -101,3 +101,20 @@ form {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+#book {
+    display: inline-block;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+    font-size: 20px;
+    height: fit-content;
+    width: 300px;
+    margin-right: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
