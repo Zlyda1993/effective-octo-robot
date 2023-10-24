@@ -20,7 +20,7 @@ Shelf.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'shelf',
+    modelName: 'Shelf',
   }
 );
 
