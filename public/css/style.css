@@ -2,7 +2,7 @@
     background-image: url(../images/background/shelf1.webp);
 } */
 
-header {
+/* header {
     display: block;
     padding: 10px;
     margin-left: auto;
@@ -13,9 +13,9 @@ header {
 .br-image {
     background-image: url(../images/background/shelf1.webp);
     opacity: 0.75;
-}
+} */
 
-@media screen and (max-width: 414px) {
+/* @media screen and (max-width: 414px) {
     body {
        background-color: lightgreen;
        display: flex;
@@ -80,4 +80,4 @@ header {
         max-width: 250px;
 
     }
- }
+ } */
