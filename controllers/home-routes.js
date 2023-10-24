@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/books/:genre', async (req, res) => {
+router.get('/books/:genre', withAuth, async (req, res) => {
   const books = await Book.findAll({
       where: { genre: req.params.genre },
   });
