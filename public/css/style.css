@@ -113,6 +113,10 @@ form {
     justify-content: center;
 }
 
+#book-page {
+    max-width: 360px;
+}
+
 img {
     max-width: 100%;
     height: auto;
