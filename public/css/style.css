@@ -113,15 +113,15 @@ form {
     justify-content: center;
 }
 
-/* .shelf {
-    background-color: black;
+.shelf {
     color: white;
     display: flex;
     text-align: center;
     justify-content: center;
-} */
+}
 
 #book-page {
+    background-color: black;
     max-width: 360px;
     
 }
