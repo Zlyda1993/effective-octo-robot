@@ -19,7 +19,8 @@ router.get('/', async (req, res) => {
         );
 
         res.render('homepage', {
-          genre
+          genre,
+          loggedIn: req.session.loggedIn
         });
     } catch (err) {
         console.log(err);
@@ -27,25 +28,16 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/book/:id', withAuth, async (req, res) => {
-    try {
-      const dbBookData = await Book.findByPk(req.params.id, {
-        include: [
-          {
-            model: Shelf,
-            attributes: ['genre'], 
-          },
-        ],
-      });
-  
-      const book = dbBookData.get({ plain: true });
-  
-      res.render('partials/book-details', { book, loggedIn: req.session.loggedIn });
-    } catch (err) {
-      console.log(err);
-      res.status(500).json(err);
-    }
+router.get('/books/:genre', async (req, res) => {
+  const books = await Book.findAll({
+      where: { genre: req.params.genre },
   });
+
+  console.log(books.img, books.)
+
+  res.render('shelf', { books });
+});
+
   
   router.get('/login', (req, res) => {
     if (req.session.loggedIn) {
