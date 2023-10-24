@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/books/:genre', withAuth, async (req, res) => {
+router.get('/books-by-genre/:genre', withAuth, async (req, res) => {
   const bookData = await Book.findAll({
       where: { genre: req.params.genre },
   });
@@ -41,7 +41,7 @@ router.get('/books/:genre', withAuth, async (req, res) => {
   });
 });
 
-router.get('/books/:id', async (req, res) => {
+router.get('/books-by-id/:id', async (req, res) => {
   try {
     const bookData = await Book.findByPk(req.params.id);
 
