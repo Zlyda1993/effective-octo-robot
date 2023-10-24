@@ -30,15 +30,25 @@ This application is a paradise for book lovers, offering them a platform to not 
 ## Technologies
 * JvaScript
 * CSS
-* 
-* 
-* 
+* MYSQL
+* NODE
+* Express
+* Bcrypt
+* Connect-Session-Sequalize
+* Dotenv
+* Express-Handlebars
+* Express-Sessions
+* Sequelize
 
 
 ## Links 
 
+Heroku: https://immense-peak-06116-736d0048e6c6.herokuapp.com/
 
-
-
+GitHub: https://github.com/Zlyda1993/effective-octo-robot.git
 
 ## Screenshots
+
+## ![Homepage](./public/images/homepage.png)
+
+## ![Login Page](./public/images/loginpage.png)
