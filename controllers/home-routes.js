@@ -18,9 +18,8 @@ router.get('/', async (req, res) => {
             shelf.get({ plain: true })
         );
 
-        res.render('shelf', {
-            genre,
-            loggedIn: req.session.loggedIn,
+        res.render('homepage', {
+          genre
         });
     } catch (err) {
         console.log(err);
