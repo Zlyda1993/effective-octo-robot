@@ -47,7 +47,7 @@ router.get('/books/:id', withAuth, async (req, res) => {
 
     const book = bookData.get({ plain: true });
 
-    res.render('book', { book, logged_in: req.session.logged_in });
+    res.render('book', { book, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
