@@ -27,7 +27,7 @@ Book.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    img: {
+    filename: {
       type: DataTypes.STRING,
       allowNull: true,
     }
