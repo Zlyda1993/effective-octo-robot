@@ -30,7 +30,14 @@ router.get('/', async (req, res) => {
 
 router.get('/book/:id', withAuth, async (req, res) => {
     try {
-      const dbBookData = await Book.findByPk(req.params.id);
+      const dbBookData = await Book.findByPk(req.params.id, {
+        include: [
+          {
+            model: Shelf,
+            attributes: ['genre'], 
+          },
+        ],
+      });
   
       const book = dbBookData.get({ plain: true });
   
@@ -49,8 +56,6 @@ router.get('/book/:id', withAuth, async (req, res) => {
   
     res.render('login');
   });
-  
-  
   
   module.exports = router;
   
