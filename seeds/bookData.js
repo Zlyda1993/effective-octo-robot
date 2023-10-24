@@ -14,7 +14,7 @@ const bookData = [
         author: "JK Rowling",
         genre: "Fiction",
         year: 1998,
-        filename: "../public/images/book_covers/hp2.jpg"
+        filename: "hp2.jpg"
         // description:
     },
     {
