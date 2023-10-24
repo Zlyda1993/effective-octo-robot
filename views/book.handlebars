@@ -1,7 +1,8 @@
-<section class="painting">
-  <img src="/images/{{book.img}}" alt="{{book.title}}">
-  <div class="painting-details">
+<section class="card">
+  <img src="/images/book_covers/{{book.filename}}" alt="book cover">
+  <div>
     <h3>{{book.title}}</h3>
-    <p>By: {{book.author}}</p>
+    <p>Genre: {{book.genre}}</p>
+    <p>By: {{book.author}} in {{book.year}}</p>
   </div>
 </section>
