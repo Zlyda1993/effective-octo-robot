@@ -41,6 +41,18 @@ router.get('/books/:genre', withAuth, async (req, res) => {
   });
 });
 
+router.get('/books/:id', withAuth, async (req, res) => {
+  try {
+    const bookData = await Book.findByPk(req.params.id);
+
+    const book = bookData.get({ plain: true });
+
+    res.render('book', { book, logged_in: req.session.logged_in });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
   
   router.get('/login', (req, res) => {
     if (req.session.loggedIn) {
