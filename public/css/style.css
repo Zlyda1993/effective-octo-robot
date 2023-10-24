@@ -1,21 +1,127 @@
-/* body {
-    background-image: url(../images/background/shelf1.webp);
-} */
+body {
+    background-image: url(https://www.miltonandking.com/wp-content/uploads/2018/10/Wallpaper-Kemra-Bookshelf-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    height: fit-content;
+}
 
-/* header {
-    display: block;
+#welcome {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    background-color: #0000009a;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+
+#signin {
+    margin-left: 270px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#signup {
+    margin-right: 300px;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: #0000009a;
+    padding: 5px;
+    width: 100%;
+    justify-content: end;
+}
+
+a:hover {
+    color: rgb(61, 129, 106);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    padding-right: 15px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+#choice {
+    background-color: #0000009a;
+    margin-left: 0;
+    color: white;
+    text-transform: uppercase;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+#signup,
+h2 {
+    margin-left: 80px;
+}
+
+#signup,
+label {
+    -webkit-text-stroke: white;
+    display: inline-block;
+    background-color: rgb(80, 80, 80);
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#signin,
+label {
+    display: inline-block;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+form {
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: red;
 }
 
-/* .br-image {
-    background-image: url(../images/background/shelf1.webp);
-    opacity: 0.75;
+#genre {
+    display: inline-block;
+    background-color: rgb(80, 80, 80);
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 300%;
+    width: 100%;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-@media screen and (max-width: 414px) {
+#book {
+    display: inline-block;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+    font-size: 20px;
+    height: fit-content;
+    width: 300px;
+    margin-right: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  @media screen and (max-width: 414px) {
     body {
        background-color: lightgreen;
        display: flex;
@@ -23,17 +129,17 @@
        justify-content: center;
     }
     #welcome {
-        max-width: 260px;
+        max-width: 270px;
         font-size: 1.25em;
     }
     nav {
         display: block;
-        max-width: 310px;
+        max-width: 300px;
         background-color: #0000009a;
     }
     #choice {
         font-size: 1em;
-        max-width: 120px;
+        max-width: 200px;
     }
 }
 
@@ -55,7 +161,7 @@
     }
     #choice {
         font-size: 1.25em;
-        max-width: 150px;
+        max-width: 250px;
     }
  }
 
@@ -77,8 +183,7 @@
     }
     #choice {
         font-size: 2em;
-        max-width: 250px;
+        max-width: 390px;
 
     }
  }
-
