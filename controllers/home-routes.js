@@ -41,7 +41,7 @@ router.get('/books/:genre', withAuth, async (req, res) => {
   });
 });
 
-router.get('/books/:id', withAuth, async (req, res) => {
+router.get('/books/:id', async (req, res) => {
   try {
     const bookData = await Book.findByPk(req.params.id);
 
