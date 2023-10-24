@@ -33,8 +33,6 @@ router.get('/books/:genre', async (req, res) => {
       where: { genre: req.params.genre },
   });
 
-  console.log(books.img, books.)
-
   res.render('shelf', { books });
 });
 
