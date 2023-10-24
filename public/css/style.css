@@ -20,13 +20,11 @@ body {
 }
 
 #signin {
-    margin-left: 270px;
     color: white;
     text-transform: uppercase;
 }
 
 #signup {
-    margin-right: 300px;
     color: white;
     text-transform: uppercase;
 }
@@ -66,10 +64,10 @@ a {
     margin-bottom: 25px;
 }
 
-#signup,
+/* #signup,
 h2 {
     margin-left: 80px;
-}
+} */
 
 #signup,
 label {
@@ -141,6 +139,13 @@ img {
         font-size: 1em;
         max-width: 200px;
     }
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen  and (min-width: 415px) and (max-width: 820px) {
@@ -161,7 +166,11 @@ img {
     }
     #choice {
         font-size: 1.25em;
-        max-width: 250px;
+        max-width: 250px;   
+    }
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
     }
  }
 
